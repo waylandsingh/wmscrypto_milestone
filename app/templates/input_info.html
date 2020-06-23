@@ -1,0 +1,29 @@
+<!doctype html>
+<title>Cryptocurrency Price Information (daily)</title>
+<link rel=stylesheet type=text/css href='{{ url_for('static',filename='alt-style.css')}}'>
+<div class=page>
+  <h1>Cryptocurrency Closing Prices</h1>
+  <div class=metanav>
+
+    <h4>
+      Provide a symbol (e.g. BTC, ETH...), month and year
+    </h4>
+
+    <form id='infoform' method='post' action='info_received' >
+      <p>
+    Symbol: <input type='text' name='symbol' />
+      </p>
+      <p>
+    Month: <input type='text' name='month' />
+      </p>
+      <p>
+    Year: <input type='text' name='year' />
+      </p>
+      <p>
+    <input type='submit' value='Submit' />
+      </p>
+    </form>
+
+  </div>
+</div>
+</html>
