@@ -75,7 +75,7 @@ def info_received():
     
     #here is where the calls to render the bokeh plot go, insert it somehow into an html template, then render it?
 #    source = ColumnDataSource(monthly_info)
-    output_file('./templates/bplot.html') #THIS WILL CHANGE LATER WHEN THE PLOT IS EMBEDDED INSTEAD
+    output_file('./templates/bplot.html') 
     c_plot = figure(
                     title = f"{payload['symbol']} Closing Price for {month}/{year}",
                     x_axis_type = 'datetime',

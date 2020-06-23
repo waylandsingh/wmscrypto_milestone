@@ -1,0 +1,5 @@
+6/23 - Fairly bare-bones implementation of a crypto closing price app for a given month/year. 
+Next - Cleanup & Prettify
+- swap text fields into dropdowns with legal month/year combinations for that currency.
+- pick different characteristics (multiple axes on same graph) to show?
+- learn/edit html templates to move input fields closer to center of page
